@@ -85,4 +85,5 @@ let details = document.getElementById("details");
 openDetailsBtn.addEventListener("click", function () {
     details.style.transition = "1s linear height";
     details.classList.toggle("openDetail");
+    console.log("salam");
 });
